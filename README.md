@@ -14,6 +14,8 @@ Requirements
 Configuration commands
 ---
 
+Downloading and configuring Solr:
+
 `wget http://ftp.unicamp.br/pub/apache/lucene/solr/6.0.0/solr-6.0.0.tgz`
 
 `tar zxvf solr-6.0.0.tgz`
@@ -25,6 +27,8 @@ Configuration commands
 `bin/solr create -c entities`
 
 `cd ..`
+
+Cloning the project and installing the required libraries:
  
 `git clone https://github.com/cjlcarvalho/SimpleSearchEngine`
 
