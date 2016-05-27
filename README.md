@@ -1,3 +1,6 @@
+Simple Search Engine
+===
+
 This is a simple search engine project working with Solr, built in Python 2.7.
 
 Requirements
