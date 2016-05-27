@@ -3,47 +3,49 @@ Simple Search Engine
 
 This is a simple search engine project working with Solr, built in Python 2.7.
 
-Requirements
+Requirements:
 ---
+
 * Python 2.7+
 
 * Solr 6.0.0+
 
 * OpenJDK (because Solr needs it)
 
-Configuration commands
+Configuration commands:
 ---
 
-Downloading and configuring Solr:
+* Downloading and configuring Solr:
 
-`wget http://ftp.unicamp.br/pub/apache/lucene/solr/6.0.0/solr-6.0.0.tgz`
+    `wget http://ftp.unicamp.br/pub/apache/lucene/solr/6.0.0/solr-6.0.0.tgz`
 
-`tar zxvf solr-6.0.0.tgz`
+    `tar zxvf solr-6.0.0.tgz`
 
-`cd solr-6.0.0`
+    `cd solr-6.0.0`
  
-`bin/solr start`
+    `bin/solr start`
 
-`bin/solr create -c entities`
+    `bin/solr create -c entities`
 
-`cd ..`
+    `cd ..`
 
-Cloning the project and installing the required libraries:
+* Cloning the project and installing the required libraries:
  
-`git clone https://github.com/cjlcarvalho/SimpleSearchEngine`
+    `git clone https://github.com/cjlcarvalho/SimpleSearchEngine`
 
-`cd SimpleSearchEngine`
+    `cd SimpleSearchEngine`
 
-`pip2 install -r requirements.txt`
+    `pip2 install -r requirements.txt`
 
-Running the web server
+Running the web server:
 ---
 
 `python2 code.py`
 
 After this command, your webserver will be running in http://0.0.0.0:8080/.
 
-Running the tests
+
+Running the tests:
 ---
 
 `(TO BE DONE)`
