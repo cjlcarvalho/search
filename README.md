@@ -1,7 +1,7 @@
 Simple Search Engine
 ===
 
-This is a simple search engine project working with Solr, built in Python 2.7.
+This is a simple search engine project working with Solr, built in Python 2.7 with web.py and PySolarized.
 
 Requirements:
 ---
