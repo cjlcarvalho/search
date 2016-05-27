@@ -10,20 +10,17 @@ class Search():
         self.type = type
         self.solr = pysolarized.solr.Solr('http://localhost:8983/solr/entities')
 
-    # Indexar itens novos
+    # Index new items
     def add(self):
         self.solr.add([{'title': self.title, 'type': self.type}])
         self.solr.commit()
 
-    # Busca de item por título
+    # Search item by title
     def query(self):
         results = self.solr.query('%s' % (self.title))
         return results.documents
 
-    # Filtro por tipo de entidade
+    # Entity type filter
     def filter(self):
         results = self.solr.query('%s' % (self.title), filters={'type':self.type})
         return results.documents
-
-# TODO: Testes
-# TODO: Integrar com ambiente de Continuous Integration
