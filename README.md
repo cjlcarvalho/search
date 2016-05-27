@@ -37,6 +37,8 @@ Running the web server
 
 `python2 code.py`
 
+After this command, your server will be running in http://0.0.0.0:8080/.
+
 Running the tests
 ---
 
