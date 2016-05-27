@@ -16,7 +16,7 @@ myform = form.Form(
     form.Dropdown('Action: ', ['Index', 'Search']),
     form.Button('Execute'),)
 
-class index:
+class index():
 
     def GET(self):
         form = myform()
