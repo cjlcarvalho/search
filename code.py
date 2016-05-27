@@ -1,5 +1,5 @@
 #! /usr/bin/env python2
-#! -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 import web
 from web import form
@@ -12,7 +12,7 @@ app = web.application(urls, globals())
 
 myform = form.Form(
     form.Textbox('Title: '),
-    form.Dropdown('Type: ', ['---','TOPIC', 'PERSON',]),
+    form.Dropdown('Type: ', ['','TOPIC', 'PERSON',]),
     form.Dropdown('Action: ', ['Index', 'Search']),
     form.Button('Execute'),)
 
@@ -38,7 +38,7 @@ class index():
 	    else:
                 search = Search(form['Title: '].value, form['Type: '].value)
 
-                if form['Type: '].value == '---':
+                if form['Type: '].value == '':
                     return search.query()
                 else:
                     return search.filter()
