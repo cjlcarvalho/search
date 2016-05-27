@@ -34,6 +34,7 @@ class index():
                 search = Search(form['Title: '].value, form['Type: '].value)
 
                 search.add()
+                return render.index(form)
 	    else:
                 search = Search(form['Title: '].value, form['Type: '].value)
 
