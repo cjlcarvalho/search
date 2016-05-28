@@ -11,6 +11,8 @@ Requirements:
 * Solr 6.0.0+
 
 * OpenJDK (because Solr needs it)
+ 
+* Docker (if you want to run with the container)
 
 Configuration commands:
 ---
@@ -37,6 +39,7 @@ Configuration commands:
 
     `pip2 install -r requirements.txt`
 
+
 Running the web server:
 ---
 
@@ -51,3 +54,23 @@ Running the tests:
 `(TO BE DONE)`
 
 
+Running with Docker:
+---
+
+* Build the Docker image:
+
+    `cd Dockerfile`
+    
+    `docker build -t=caiojcarvalho/container .`
+
+* Create the container and use the container's terminal:
+
+    `docker run -i -t -p 8080:8080 caiojcarvalho/container`
+
+* In the container's terminal, run these commands:
+
+    `# solr-6.0.0/bin/solr start`
+    
+    `# solr-6.0.0/bin/solr create -c entities`
+    
+    `# python SimpleSearchEngine/code.py`
