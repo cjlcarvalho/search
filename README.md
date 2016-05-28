@@ -56,7 +56,7 @@ Configuration commands:
 Running the web server:
 ---
 
-`python2 __main__.py`
+`python __main__.py`
 
 After this command, your webserver will be running in http://0.0.0.0:8080/ or http://localhost:8080/.
 
