@@ -3,6 +3,19 @@ Simple Search Engine
 
 This is a simple search engine project working with Solr, built in Python 2.7 with [web.py](http://webpy.org/) and [PySolarized](https://github.com/izacus/pysolarized).
 
+Summary:
+===
+1. [Requirements](#requirements)
+
+2. [Configuration commands](#configuration-commands)
+
+3. [Running the web server](#running-the-web-server)
+
+4. [Running the tests](#running-the-tests)
+
+5. [Running with Docker](#running-with-docker)
+
+
 Requirements:
 ---
 
