@@ -56,7 +56,7 @@ Configuration commands:
 Running the web server:
 ---
 
-`python2 code.py`
+`python2 main.py`
 
 After this command, your webserver will be running in http://0.0.0.0:8080/ or http://localhost:8080/.
 
@@ -88,4 +88,4 @@ Running with Docker:
     
     `# cd SimpleSearchEngine`
     
-    `# python code.py`
+    `# python main.py`
