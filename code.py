@@ -12,7 +12,7 @@ app = web.application(urls, globals())
 
 myform = form.Form(
     form.Textbox('Title: '),
-    form.Dropdown('Type: ', ['---','TOPIC', 'PERSON',]),
+    form.Dropdown('Type: ', ['','TOPIC', 'PERSON',]),
     form.Dropdown('Action: ', ['Index', 'Search']),
     form.Button('Execute'),)
 
@@ -38,10 +38,16 @@ class index:
 	    else:
                 search = Search(form['Title: '].value, form['Type: '].value)
 
-                if form['Type: '].value == '---':
-                    return search.query()
+                if form['Type: '].value == '':
+                    try:
+                        return search.query()
+                    except:
+                    	return render.index(form)
                 else:
-                    return search.filter()
+                    try:
+                        return search.filter()
+                    except:
+                    	return render.index(form)
                     
 if __name__ == '__main__':
     web.internalerror = web.debugerror
