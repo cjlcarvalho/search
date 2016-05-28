@@ -86,4 +86,6 @@ Running with Docker:
     
     `# solr-6.0.0/bin/solr create -c entities`
     
-    `# python SimpleSearchEngine/code.py`
+    `# cd SimpleSearchEngine`
+    
+    `# python code.py`
