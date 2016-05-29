@@ -1,6 +1,5 @@
 import unittest
 import sys
-sys.path.insert(0, '../')
 import search
 
 class Test(unittest.TestCase):
