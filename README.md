@@ -64,7 +64,9 @@ After this command, your webserver will be running in http://0.0.0.0:8080/ or ht
 Running the tests:
 ---
 
-`(TO BE DONE)`
+* Testing the Solr connection:
+
+    `python tests/test_search.py`
 
 
 Running with Docker:
