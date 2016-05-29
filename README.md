@@ -32,11 +32,11 @@ Configuration commands:
 
 * Downloading and configuring Solr:
 
-    `wget http://ftp.unicamp.br/pub/apache/lucene/solr/6.0.1/solr-6.0.1.tgz`
+    `wget https://archive.apache.org/dist/lucene/solr/6.0.0/solr-6.0.0.tgz`
 
-    `tar zxvf solr-6.0.1.tgz`
+    `tar zxvf solr-6.0.0.tgz`
 
-    `cd solr-6.0.1`
+    `cd solr-6.0.0`
  
     `bin/solr start`
 
@@ -84,9 +84,9 @@ Running with Docker:
 
 * In the container's terminal, run these commands:
 
-    `# solr-6.0.1/bin/solr start`
+    `# solr-6.0.0/bin/solr start`
     
-    `# solr-6.0.1/bin/solr create -c entities`
+    `# solr-6.0.0/bin/solr create -c entities`
     
     `# cd SimpleSearchEngine`
     
