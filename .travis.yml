@@ -5,7 +5,7 @@ python:
 install: "pip install -r requirements.txt"
 # Running a Solr instance in travis...
 before_script: 
-- curl -sSL https://raw.githubusercontent.com/moliware/travis-solr/master/travis-solr.sh | SOLR_VERSION=5.3.1 SOLR_DOCS=custom_docs.json bash
+- curl -sSL https://raw.githubusercontent.com/moliware/travis-solr/master/travis-solr.sh | SOLR_VERSION=5.3.1 SOLR_COLLECTION=entities bash
 # command to run tests
 script: 
 - bin/solr create -c entities
