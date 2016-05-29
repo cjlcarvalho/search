@@ -1,5 +1,5 @@
 import unittest
-import sys
+import doctest
 import search
 
 class Test(unittest.TestCase):
@@ -21,5 +21,4 @@ class Test(unittest.TestCase):
 
 if __name__ == "__main__":
 	unittest.main()
-	import doctest
 	doctest.testmod()
