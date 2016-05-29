@@ -5,9 +5,9 @@ python:
 install: "pip install -r requirements.txt"
 # command to run tests
 script: 
-- wget http://ftp.unicamp.br/pub/apache/lucene/solr/6.0.1/solr-6.0.1.tgz
-- tar zxvf solr-6.0.1.tgz
-- cd solr-6.0.1.tgz
+- wget https://archive.apache.org/dist/lucene/solr/6.0.0/solr-6.0.0.tgz
+- tar zxvf solr-6.0.0.tgz
+- cd solr-6.0.0
 - bin/solr start
 - bin/solr create -c entities
 - cd ..
