@@ -1,4 +1,4 @@
-Simple Search Engine
+Simple Search Engine      [![Build Status](https://travis-ci.org/cjlcarvalho/SimpleSearchEngine.svg?branch=master)](https://travis-ci.org/cjlcarvalho/SimpleSearchEngine)
 ===
 
 This is a simple search engine project working with Solr, built in Python 2.7 with [web.py](http://webpy.org/) and [PySolarized](https://github.com/izacus/pysolarized).
