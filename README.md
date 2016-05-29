@@ -40,7 +40,7 @@ Configuration commands:
  
     `bin/solr start`
 
-    `bin/solr create -c entities`
+    `bin/solr create -c gettingstarted`
 
     `cd ..`
 
@@ -86,7 +86,7 @@ Running with Docker:
 
     `# solr-6.0.0/bin/solr start`
     
-    `# solr-6.0.0/bin/solr create -c entities`
+    `# solr-6.0.0/bin/solr create -c gettingstarted`
     
     `# cd SimpleSearchEngine`
     
