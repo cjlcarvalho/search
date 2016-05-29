@@ -8,7 +8,7 @@ class Search():
     def __init__(self, title, type):
         self.title = title
         self.type = type
-        self.solr = pysolarized.solr.Solr('http://localhost:8983/solr/entities')
+        self.solr = pysolarized.solr.Solr('http://localhost:8983/solr/gettingstarted')
 
     # Index new items
     def add(self):
