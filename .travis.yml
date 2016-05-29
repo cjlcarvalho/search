@@ -11,4 +11,4 @@ script:
 - bin/solr start
 - bin/solr create -c entities
 - cd ..
-- python test_search.py
+- python test_search.py -v
