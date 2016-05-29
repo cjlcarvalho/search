@@ -9,8 +9,8 @@ RUN apt-get update && \
 apt-get install -y openjdk-8-jdk python2.7 wget tar lsof git python-pip
 
 # Downloading and installing Solr
-RUN wget http://ftp.unicamp.br/pub/apache/lucene/solr/6.0.1/solr-6.0.1.tgz
-RUN tar zxvf solr-6.0.1.tgz
+RUN wget https://archive.apache.org/dist/lucene/solr/6.0.0/solr-6.0.0.tgz
+RUN tar zxvf solr-6.0.0.tgz
 
 # Cloning the project
 RUN git clone https://github.com/cjlcarvalho/SimpleSearchEngine
