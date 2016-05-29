@@ -64,7 +64,7 @@ After this command, your webserver will be running in http://0.0.0.0:8080/ or ht
 Running the tests:
 ---
 
-* Testing the Solr connection:
+* Testing the search module:
 
     `python tests/test_search.py`
 
