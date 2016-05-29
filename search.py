@@ -17,10 +17,10 @@ class Search():
 
     # Search item by title
     def query(self):
-        results = self.solr.query('%s' % (self.title))
+        results = self.solr.query('%s*' % (self.title))
         return results.documents
 
     # Entity type filter
     def filter(self):
-        results = self.solr.query('%s' % (self.title), filters={'type':self.type})
+        results = self.solr.query('%s*' % (self.title), filters={'type':self.type})
         return results.documents
