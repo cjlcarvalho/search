@@ -66,7 +66,7 @@ Running the tests:
 
 * Testing the search module:
 
-    `python tests/test_search.py`
+    `python test_search.py -v`
 
 
 Running with Docker:
