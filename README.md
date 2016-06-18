@@ -46,9 +46,9 @@ Configuration commands:
 
 * Cloning the project and installing the required libraries:
  
-    `git clone https://github.com/cjlcarvalho/SimpleSearchEngine`
+    `git clone https://github.com/cjlcarvalho/search.py`
 
-    `cd SimpleSearchEngine`
+    `cd search.py`
 
     `pip2 install -r requirements.txt`
 
@@ -88,6 +88,6 @@ Running with Docker:
     
     `# solr-6.0.0/bin/solr create -c gettingstarted`
     
-    `# cd SimpleSearchEngine`
+    `# cd search.py`
     
     `# python __main__.py`
