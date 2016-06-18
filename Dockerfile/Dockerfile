@@ -13,10 +13,10 @@ RUN wget https://archive.apache.org/dist/lucene/solr/6.0.0/solr-6.0.0.tgz
 RUN tar zxvf solr-6.0.0.tgz
 
 # Cloning the project
-RUN git clone https://github.com/cjlcarvalho/SimpleSearchEngine
+RUN git clone https://github.com/cjlcarvalho/search.py
 
 # Installing the required libraries
-RUN pip install -r SimpleSearchEngine/requirements.txt
+RUN pip install -r search.py/requirements.txt
 
 # Running the terminal
 CMD ["/bin/bash"]
